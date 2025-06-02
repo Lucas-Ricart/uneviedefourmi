@@ -3,26 +3,12 @@ Cas 2 : f = 5
 
 Rappel de l'algorithme logique par couches :
 
-Sv → Sd / S1
-
-S1 → S2
-
-S2 → Sd
+Sv → Sd
 
 
 +++E1+++
 f1 - Sv - Sd
-f2 - Sv - S1
-
-+++E2+++
-f2 - S1 - S2
+f2 - Sv - Sd
 f3 - Sv - Sd
-f4 - Sv - S1
-
-+++E3+++
-f2 - S2 - Sd
-f4 - S1 - S2
-F5 - Sv - Sd
-
-+++E4+++
-f4 - S2 - Sd
+f4 - Sv - Sd
+f5 - Sv - Sd
